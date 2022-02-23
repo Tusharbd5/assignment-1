@@ -1,9 +1,13 @@
 .flexible-content
 {
     display: flex;
-    align-items: center;
-    padding-left: 5%;
-    padding-right: 5%;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-left: 5%;
+}
+body
+{
+    margin: 0;
 }
 .half-width
 {
@@ -11,11 +15,11 @@
 }
 .half-width img
 {
-    width: 70%;
+    width: 65%;
     padding-left: 100px;
     
 }
-.top-banner .half-width h1
+.head-font h1
 {
     font-family: Famosa;
     font-size: 50px;
@@ -46,9 +50,54 @@
     border-radius: 15px;
     margin-right: 15px;
 }
+.custom-font h1
+{
+    font-size: 50px;
+}
+.middle-banner h1
+{
+    text-align: center;
+}
+.middle-banner_1 h1
+{
+    text-align: left;
+}
+.middle-banner_1
+{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position-y: 100px;
+    align-items: center;
+}
 .custom-font
 {
     font-family: 'Poppins', sans-serif;
+}
+.one-third
+{
+    width: 23%;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: justify;
+    margin-right: 3%;
+    height: 550px; 
+}
+.bg-color_1
+{
+    background-color: #ffeeee;
+}
+.bg-color_2
+{
+    background-color: antiquewhite;
+}
+.bg-color_3
+{
+    background-color: #fff4d6;
+}
+.one-third img
+{
+    width: 60%;
 }
 
 @font-face {
