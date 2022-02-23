@@ -72,6 +72,16 @@ body
     background-position-y: 100px;
     align-items: center;
 }
+.bottom-banner
+{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 350px;
+    height: 800px;
+    background-position-y: 450px;
+    background-position-x: 1350px;
+    
+}
 .custom-font
 {
     font-family: 'Poppins', sans-serif;
@@ -105,4 +115,31 @@ body
 @font-face {
     font-family: Famosa;
     src: url('fonts/Famosa-HeavyDemo.otf');
+}
+.one-four
+{
+    text-align: center;
+    padding-right: 15px;
+}
+.one-four img
+{
+    width: 50%;
+}
+.footer
+{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+    height: 150px;
+}   
+.color-footer
+{
+    color: tomato;
+} 
+.footer h2
+{
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+    
 }
